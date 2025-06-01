@@ -1,3 +1,6 @@
+#Francisco Nogueira de Queiroz, RM: 566309
+#Bernardo Moreira Lopes Sousa, RM: 564103
+
 # Lista para armazenar os dados dos usuários cadastrados
 usuarios_cadastrados = []
 
