@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <meta name="description" content="Um site focado em garantir a segurnça em caso de enchentes e alagamentos">
+    <meta name="keywords" content="Alerta, Enchentes, Segurança, Alagamento">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');</style>
+    <title>Alerta Brasil+</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/Logo.svg" alt="Logo do Alerta Brasil+">
+            <ul>
+                <li class="select"><a href="#">Área de Risco</a></li>
+                <li><a href="html/rotas.html">Rotas De Fuga</a></li>
+                <li><a href="html/alerta.html">Alerta</a></li>
+                <li><a href="../html/sobre.html">Sobre</a></li>
+            </ul>
+            <img src="img/Icone User.svg" alt="Imagem User">
+        </nav>
+    </header>
+
+    <main>
+        <section class="map">
+            <h1>Sua Área <strong>não está sob risco</strong></h1>
+            <img src="img/map.png" alt="Mapa de Área">
+        </section>
+
+        <section class="informacoes">
+            <!-- informações de risco -->
+            <div class="risco">
+                <h2>Nível De Risco</h2>
+                <p>Sem risco de enchentes nos próximos <strong>7 dias</strong></p>
+                <div id="contador">
+                    <div id="barra"></div>
+                </div>
+                <div id="numeros">
+                    <p>0</p>
+                    <p>50</p>
+                    <p>100</p>
+                </div>
+                <div class="cores">
+                    <div id="verde"></div>
+                    <p>0 - <strong>Risco Baixo</strong></p>
+                </div>
+                <div class="cores">
+                    <div id="amarelo"></div>
+                    <p>50 - <strong>Atenção</strong></p>
+                </div>
+                <div class="cores">
+                    <div id="vermelho"></div>
+                    <p>80+ - <strong>Perigo</strong></p>
+                </div>
+                <button>Reportar Ocorrência</button>
+            </div>
+            <!-- previsão do tempo -->
+            <div class="tempo">
+                <h1>Previsão do Tempo</h1>
+                <div class="temperaturas">
+                <!-- segunda -->
+                    <div class="temp">
+                        <p>Segunda-feira</p>
+                        <p>25 º    21 º</p>
+                    </div>
+                <!-- terça -->
+                    <div class="temp">
+                        <p>Terça-feira</p>
+                        <p>25 º    21 º</p>
+                    </div>
+                <!-- quarta -->
+                    <div class="temp">
+                        <p>Quarta-feira</p>
+                        <p>25 º    21 º</p>
+                    </div>
+                <!-- quinta -->
+                    <div class="temp">
+                        <p>Quinta-feira</p>
+                        <p>25 º    21 º</p>
+                    </div>
+                <!-- sexta -->
+                    <div class="temp">
+                        <p>Sexta-feira</p>
+                        <p>25 º    21 º</p>
+                    </div>
+                <!-- sabado -->
+                    <div class="temp">
+                        <p>Sábado-feira</p>
+                        <p>25 º    21 º</p>
+                    </div>
+                <!-- domingo -->
+                    <div class="temp">
+                        <p>Domingo</p>
+                        <p>25 º    21 º</p>
+                    </div>  
+                </div>
+            </div>
+            <!-- areas de risco -->
+            <div class="areas">
+                <h1>Áreas de Risco próximas a você</h1>
+                <div id="areas">
+                    <div id="text">
+                        <h2>Casa Verde</h2>
+                        <p>Av. Antonio Munhoz Bonilha</p>
+                    </div>
+                    <button>Ver no Mapa</button>
+                </div>
+                <div id="areas">
+                    <div id="text">
+                        <h2>Freguesia do Ó</h2>
+                        <p>Av. Inajar de Souza</p>
+                    </div>
+                    <button>Ver no Mapa</button>
+                </div>
+                <div id="areas">
+                    <div id="text">
+                        <h2>Itaú Unibanco</h2>
+                        <p>Rua da Mocca</p>
+                    </div>
+                    <button>Ver no Mapa</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="ocorrencias">
+            <h1>Ocorrências na sua Região</h1>
+            <div class="regiao">
+                <img src="img/image 1.png" alt="Imagem ocorrencia região">
+                <div class="text">
+                    <h2>Metrô linha azul Jardim São Paulo alagado</h2>
+                    <h3>06/05/2025 - 17:53</h3>
+                    <p>Gente para todo mundo que vai voltar pra casa pela linha azul, o metrô ta totalmente alagado</p>        
+                </div>
+            </div>
+            <div class="regiao">
+                <img src="img/image.png" alt="Imagem ocorrencia região">
+                <div class="text">
+                    <h2>Rua Tobias Barreto na Mooca totalmente inundada</h2>
+                    <h3>06/05/2025 - 18:26</h3>
+                    <p>Rua Tobias Barreto Mocca se encontra em estado de grande volume de água, quem puder não venha pra cá</p>  
+                </div>
+            </div>
+            <div class="regiao">
+                <img src="img/image2.png" alt="Imagem ocorrencia região">
+                <div class="text">
+                    <h2>Rua Tobias Barreto na Mooca totalmente inundada</h2>
+                    <h3>06/05/2025 - 18:34</h3>
+                    <p>Gente para todo mundo que vai voltar pra casa pela linha azul, o metrô ta totalmente alagado</p>               
+                </div>
+            </div>
+            <button>Reportar Ocorrência</button>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <img src="img/Logo.svg" alt="Loga Alerta Brasil">
+            <ul>
+                <li class="select"><a href="#">Área de Risco</a></li>
+                <li><a href="html/rotas.html">Rotas De Fuga</a></li>
+                <li><a href="html/alerta.html">Alerta</a></li>
+                <li><a href="../html/sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

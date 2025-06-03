@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/static/InstrumentSans-Regular.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/static/InstrumentSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/static/InstrumentSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/static/InstrumentSans-Bold.ttf') format('truetype');
+    font-weight: 700; 
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/static/InstrumentSans-Italic.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('../fonts/static/InstrumentSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Sans Variable';
+    src: url('../fonts/static/InstrumentSans-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-stretch: 25% 150%;
+    font-style: normal; 
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Instrument Sans Variable'; 
+    src: url('../fonts/static/InstrumentSans-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    font-weight: 100 900; 
+    font-stretch: 25% 150%;
+    font-style: italic;
+    font-display: swap;
+}
+
+

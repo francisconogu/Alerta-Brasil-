@@ -1,0 +1,582 @@
+body {
+  font-family: 'Instrument Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+/* ******************************************************PAGINA 1 - ÁREA DE RISCO****************************************************** */
+
+/* Menu */
+header{
+    border-bottom: solid 2px #b1b1b1;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 84%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+}
+
+nav img:first-child{
+    width: 12%;
+}
+
+footer img{
+    width: 15%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.select{
+    font-weight: 500;
+    color: #20AF00;
+}
+
+li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Secção Mapa */
+.map{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img{
+    width: 60%;
+}
+
+.map h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #00B032;
+}
+
+/* Secção Informações */
+.informacoes{
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:baseline;
+}
+
+.informacoes h1{
+    font-size: 22px;
+}
+
+.risco{
+    width: 25%;
+}
+
+.risco h2{
+    margin-bottom: -10px;
+}
+
+.risco p{
+    font-size: 15px;
+    color:#656565;
+}
+
+.risco button{
+    font-family: 'Instrument Sans';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FF0000;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#contador{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 35px;
+    background: linear-gradient(90deg, #09FF00 0%, #FFFB00 48.08%, #F00 100%);
+    border-radius: 35px;
+}
+
+#barra{
+   width: 5px; 
+   height: 45px;
+   background-color: #4b4b4b;
+   margin-left: 40px;
+   border-radius: 35px;
+}
+
+#numeros{
+    width: 95%;
+    padding: 0 20px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -10px 0 0 0;
+}
+
+.risco:last-child{
+    margin-bottom: 20px;
+}
+
+#verde{
+    width: 20px;
+    height: 20px;
+    background-color: #00B032;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#amarelo{
+    width: 20px;
+    height: 20px;
+    background-color: #ffff00;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#vermelho{
+    width: 20px;
+    height: 20px;
+    background-color: #b00000;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.temperaturas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #d9d9d949;
+    border:solid 2px #65656549 ;
+    border-radius: 10px;
+}
+
+.temp{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.areas h1{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+#areas button{
+    border: 0px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: #ffffff; 
+}
+
+#text h2{
+    font-size: 18px;
+    margin: 0 5px 10px 0;
+}
+
+#text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#text h1{
+    padding-right: 10px;
+}
+
+.ocorrencias{
+    margin: 40px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.regiao{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.regiao img{
+    width: 120%;
+    margin: -5px;
+    z-index: 100;
+}
+
+.regiao:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+.regiao .text{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    padding: 20px 35px;
+    background-color: #d9d9d939;
+}
+
+.regiao .text{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    padding: 10px 35px;
+    background-color: #d9d9d939;
+}
+
+.regiao h2{
+    margin-bottom: -5px;
+    font-size: 19px;
+}
+
+.regiao h3{
+    margin-bottom: -10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Secção Ocorrencias */
+.ocorrencias button{
+    font-family: 'Instrument Sans';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FF0000;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* ******************************************************PAGINA 2 - ROTAS****************************************************** */
+
+/* Secção Rotas */
+.rotas{
+    padding-bottom: 80px;
+}
+
+.rota{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 0 20px;
+    width: 55%;
+    margin: 1% 20%;
+    padding: 10px 30px;
+    background-color: #d9d9d94b;
+    border-radius: 10px;
+}
+
+.form{
+    width: 60%;
+    margin: -30px 20% 10px 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.form h1{
+    transform: translateY(70%);
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.form input{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 20px 20px 20px 45px;
+    height: 10px;
+    width: 40%;
+    border: 0px;
+    background-color: #F1F1F1;
+}
+
+.form img{
+    width: 2%;
+    transform: translate(80%, 200%);
+}
+
+#min{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0 5px;
+}
+
+#min h1{
+    font-size: 40px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#min p{
+    font-weight: 500;
+}
+
+#enderco{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#endereco h3{
+    font-size: 17px;
+    font-weight: 500;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#enderco p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#rota1{
+    border: solid 2px #00000039;
+}
+
+#rota2{
+    background-color: #f8ffd575;
+    border: solid 2px #ebffa339;
+}
+
+#endereco p{
+    color: #24C400;
+    margin-block-start: 3px;
+    margin-block-end: 0px;
+}
+
+.rota:nth-of-type(3) #endereco p {
+  color: #b3a700;
+}
+
+main{
+    padding-top: 30px;
+}
+
+/* ******************************************************PAGINA 3 - ALERTA****************************************************** */
+
+/* Secção Alerta */
+.alerta{
+    padding: 10px 20%;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-items: start;
+}
+
+.informacoes-alerta{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0;
+    gap: 30px 0;
+}
+
+#title h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+#risco-alerta{
+    width: 70%;
+}
+
+#risco-alerta #numeros{
+    width: 85%;
+}
+
+.cuidados-adequados{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.cuidados{
+    border: solid 2px #00000012;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #b1b1b142;
+    margin-bottom: 20px;
+}
+
+#contatos p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 17px;
+}
+.emergencia{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.emergencia h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#contatos button{
+    font-family: 'Instrument Sans';
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #b70000f5;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* Secção Aviso */
+.aviso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 30%;
+    width: calc(40%-40px);
+    padding: 40px;
+    background-color: #b1b1b142;
+    border-radius: 15px;
+    border: 3px #6464646e solid;
+}
+
+.aviso p{
+    text-align: center;
+    font-size: 19px;
+}
+
+.aviso button{
+    font-family: 'Instrument Sans';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #b70000f5;
+    border: 0;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.aviso a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ******************************************************PAGINA 4 - SOBRE****************************************************** */
+.sobre{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 1% 20% 10% 20%;
+    gap: 20px;
+}
+
+.sobre section h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.sobre section h3{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 15px;
+}
+
+.sobre section p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.sobre section{
+    display: flex;
+    flex-direction: column;
+    background-color: #b1b1b124;
+    padding: 50px;
+    border-radius: 20px;
+    border: solid 2px #4b4b4b6a;
+}
+
+.sobre section ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre section ul li{
+    list-style: circle;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid #656565 1px;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
