@@ -1,4 +1,4 @@
-# Alerta-Brasil-
+# Alerta-Brasil
 
 O **Alerta-Brasil-** é um projeto dedicado ao monitoramento e divulgação de alertas sobre eventos importantes no Brasil, como desastres naturais, emergências públicas, condições climáticas extremas ou qualquer situação relevante para a população. A missão do projeto é centralizar informações de fontes oficiais e confiáveis, facilitando a comunicação rápida e acessível de alertas para usuários em diferentes regiões do país.
 
